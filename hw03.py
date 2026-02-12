@@ -20,7 +20,7 @@ def print_tree(path, prefix=""):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Використання: python task3.py /шлях/до/директорії")
+        print("Використання: python hw03.py /шлях/до/директорії")
         sys.exit(1)
 
     dir_path = Path(sys.argv[1])
